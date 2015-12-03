@@ -1,0 +1,1 @@
+/usr/local/cuda-7.5/bin/nvcc -arch=compute_35 -code=compute_35,sm_35 cell.cu -o cell.exe -lm -lX11 -lXm -lXt -L/usr/X11R6/lib -lrt
